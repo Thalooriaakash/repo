@@ -1,0 +1,12 @@
+ChatGPT said:
+Cloudinary is a cloud-based service that helps developers upload, store, manage, manipulate, and deliver images and videos efficiently in web and mobile applications.
+Example Use Case:
+Say you have a website where users upload profile pictures.
+
+Upload the image to Cloudinary.
+
+Transform it into a circular thumbnail.
+
+Deliver the optimized image quickly to users.
+
+If you're building an app that uses images or videos and want to save storage and improve performance, Cloudinary is a great tool.

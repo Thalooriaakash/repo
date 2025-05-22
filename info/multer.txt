@@ -1,0 +1,19 @@
+MULTER:
+Multer is a middleware for Node.js used with Express.js to handle multipart/form-data, which is primarily used for uploading files.
+
+🔧 What is multipart/form-data?
+When a form includes file inputs, the browser sends data in multipart/form-data format. Multer helps parse and handle that data in Node.js.
+
+📦 Why Use Multer?
+To upload files (images, documents, etc.) from client to server.
+
+To store uploaded files locally or in memory.
+
+To access file details like original name, size, and path.
+📁 Key Methods
+Method	Description
+upload.single(fieldName)	Upload a single file
+upload.array(fieldName, maxCount)	Upload multiple files with the same name
+upload.fields([{name: 'field1'}, {name: 'field2'}])Upload multiple files with different field names
+
+
