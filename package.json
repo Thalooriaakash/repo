@@ -1,13 +1,18 @@
 {
-  "name": "majorpoject",
+  "engines": {
+    "node": "18.x"
+  },
+  "name": "majorproject",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
+  "description": "A web app for listings with reviews and users",
   "dependencies": {
     "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
@@ -26,7 +31,5 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }
